@@ -1,0 +1,377 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    padding: 13px;
+    position: fixed;
+    width: 100%;
+}
+#logo{
+    border-radius: 100px;
+    
+}
+.bname{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgb(10, 90, 177);
+  color: rgb(255, 255, 255);
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.back-to-top:hover {
+  background-color: #003d80;
+}
+#university{
+color: rgb(25, 8, 203);
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bolder;
+font-size: 20px;
+}
+#isba{
+    font-size: small;
+    font-family: Tahoma;
+    margin-left: 65px;
+    padding: 10px;
+    word-spacing: 5px;
+    font-size: 25px;
+}
+#I{
+    color: red;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#three{
+  color: rgb(255, 255, 255);  
+  margin-left: 10px;
+  font-weight: bold;
+  word-spacing: 5px;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  border: 1px grey solid;
+  padding: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+#one{
+margin-left: 110px;
+font-weight: bolder;
+font-size: 40px;
+}
+#two{
+margin-left: 175px;
+font-weight: bolder;
+font-size: 40px;
+color: yellow;
+}
+#bar{
+    height: 10%;
+    margin-left: 5px;
+    padding: 20px;
+}
+.links{
+display: flex;
+gap: 50px;
+font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-right: 40px;
+    align-items: center;
+    font-size: 17px;
+}
+.links a{
+text-decoration: none;
+color: rgb(0, 13, 255);
+transition:0.3s;
+}
+.links a:hover{
+    text-decoration: underline;
+    border-radius: 5px;
+    padding: 7px;
+    transform: translateY(-3px);
+    color: rgb(151, 0, 0);
+
+}
+#hom{
+    background-color: rgb(171, 6, 6);
+    border-radius: 90px;
+}
+#ho{
+    color: white;
+    background-color: rgb(186, 0, 0);
+    border-radius: 15px;
+    padding: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.other{
+   font-size: small;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin-top: 14px;
+   gap: 20px;
+   color: blue;
+
+}
+.top{
+    top: 0px;
+    height: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+     font-weight: 10px;
+    border-radius: 1px;
+    background-color: rgb(31, 31, 163);
+    width: 100%;
+    align-items: center;
+    color: white;
+    position: fixed;
+    padding: 13px;
+    font-size: smaller;
+
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-right: 10px;
+    word-spacing: 10px;
+}
+.ps{
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    gap: 10px;
+   
+}
+#home{
+height: 100vh;
+background-image: url(../MEDIA/ISBAT\ University\ Student\ Welcome.png);
+
+
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode:overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+       padding-top: 150px;
+ color: white;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+#about_us{
+    height: 100vh;
+    background-image: url(../MEDIA/training\ activity.jpg);
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode:overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+    color: white;
+}
+caption{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-right: 650px;
+     margin-top: 0px;
+     height: 90%;
+     
+}
+#para{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    word-spacing: 2px;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 7px;
+    width: 550px;
+    height: 350px;
+    border-radius: 15px;
+    border: 1px grey solid;
+    word-spacing: 3px;
+}
+#ab{
+    display: flex;
+    justify-content: center;
+    word-spacing: 40px;
+    gap: 10px;
+}
+#ISBAT{
+    color: red;
+}
+#course{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    gap: 50px
+    ;
+   
+
+}
+
+body {
+    background-color: lightgray;
+    font-family: Arial;
+}
+
+.main {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    color: darkblue;
+}
+
+ul, ol {
+    background-color: lightblue;
+    padding: 25px;
+}
+
+li {
+    margin: 10px;
+}
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card {
+    background-color: lightblue;
+    width: 200px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.card h3 {
+    color: darkblue;
+}
+
+.card:hover {
+    background-color: skyblue;
+}
+
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card {
+    background-color: lightblue;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.card h3 {
+    color: darkblue;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+#timetable{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(144, 51, 51, 0.4);
+}
+th {
+    background-color: #002b64;
+    color: white;
+    padding: 15px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #dceaff;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+#timetable{
+    height: 100vh;
+}
+#registration{
+    height: 100vh;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(252, 98, 98);
+    
+}
+body {
+    background-color: lightblue;
+    font-family: Arial;
+}
+
+h2 {
+    text-align: center;
+    color: darkblue;
+}
+
+form {
+    background-color: white;
+    width: 450px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+input, select, textarea {
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: darkblue;
+    color: white;
+}
+
+input[type="reset"] {
+    background-color: red;
+    color: white;
+}
+
